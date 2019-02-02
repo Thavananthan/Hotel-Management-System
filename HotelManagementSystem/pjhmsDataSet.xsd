@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="pjhmsDataSet" targetNamespace="http://tempuri.org/pjhmsDataSet.xsd" xmlns:mstns="http://tempuri.org/pjhmsDataSet.xsd" xmlns="http://tempuri.org/pjhmsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="pjhmsConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="pjhmsConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.HotelManagementSystem.Properties.Settings.GlobalReference.Default.pjhmsConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="guestdetailsTableAdapter" GeneratorDataComponentClassName="guestdetailsTableAdapter" Name="guestdetails" UserDataComponentName="guestdetailsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="pjhmsConnectionString (Settings)" DbObjectName="pjhms.guestdetails" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT guestId, fname, lname, nic, gender, dob, age, address, phonenum FROM guestdetails</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="pjhmsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="pjhmsDataSet" msprop:Generator_UserDSName="pjhmsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="guestdetails" msprop:Generator_TableClassName="guestdetailsDataTable" msprop:Generator_TableVarName="tableguestdetails" msprop:Generator_TablePropName="guestdetails" msprop:Generator_RowDeletingName="guestdetailsRowDeleting" msprop:Generator_RowChangingName="guestdetailsRowChanging" msprop:Generator_RowEvHandlerName="guestdetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="guestdetailsRowDeleted" msprop:Generator_UserTableName="guestdetails" msprop:Generator_RowChangedName="guestdetailsRowChanged" msprop:Generator_RowEvArgName="guestdetailsRowChangeEvent" msprop:Generator_RowClassName="guestdetailsRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

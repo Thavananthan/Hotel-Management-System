@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet4" targetNamespace="http://tempuri.org/DataSet4.xsd" xmlns:mstns="http://tempuri.org/DataSet4.xsd" xmlns="http://tempuri.org/DataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet4" msprop:Generator_UserDSName="DataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="prinybillforguests" msprop:Generator_TableClassName="prinybillforguestsDataTable" msprop:Generator_TableVarName="tableprinybillforguests" msprop:Generator_TablePropName="prinybillforguests" msprop:Generator_RowDeletingName="prinybillforguestsRowDeleting" msprop:Generator_RowChangingName="prinybillforguestsRowChanging" msprop:Generator_RowEvHandlerName="prinybillforguestsRowChangeEventHandler" msprop:Generator_RowDeletedName="prinybillforguestsRowDeleted" msprop:Generator_UserTableName="prinybillforguests" msprop:Generator_RowChangedName="prinybillforguestsRowChanged" msprop:Generator_RowEvArgName="prinybillforguestsRowChangeEvent" msprop:Generator_RowClassName="prinybillforguestsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="roomtype" msprop:Generator_ColumnVarNameInTable="columnroomtype" msprop:Generator_ColumnPropNameInRow="roomtype" msprop:Generator_ColumnPropNameInTable="roomtypeColumn" msprop:Generator_UserColumnName="roomtype" type="xs:string" minOccurs="0" />
+              <xs:element name="roomnum" msprop:Generator_ColumnVarNameInTable="columnroomnum" msprop:Generator_ColumnPropNameInRow="roomnum" msprop:Generator_ColumnPropNameInTable="roomnumColumn" msprop:Generator_UserColumnName="roomnum" type="xs:unsignedInt" minOccurs="0" />
+              <xs:element name="numofguest" msprop:Generator_ColumnVarNameInTable="columnnumofguest" msprop:Generator_ColumnPropNameInRow="numofguest" msprop:Generator_ColumnPropNameInTable="numofguestColumn" msprop:Generator_UserColumnName="numofguest" type="xs:int" minOccurs="0" />
+              <xs:element name="lname" msprop:Generator_ColumnVarNameInTable="columnlname" msprop:Generator_ColumnPropNameInRow="lname" msprop:Generator_ColumnPropNameInTable="lnameColumn" msprop:Generator_UserColumnName="lname" type="xs:string" minOccurs="0" />
+              <xs:element name="arrivalDOB" msprop:Generator_ColumnVarNameInTable="columnarrivalDOB" msprop:Generator_ColumnPropNameInRow="arrivalDOB" msprop:Generator_ColumnPropNameInTable="arrivalDOBColumn" msprop:Generator_UserColumnName="arrivalDOB" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="departuretime" msprop:Generator_ColumnVarNameInTable="columndeparturetime" msprop:Generator_ColumnPropNameInRow="departuretime" msprop:Generator_ColumnPropNameInTable="departuretimeColumn" msprop:Generator_UserColumnName="departuretime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="billId" msprop:Generator_ColumnVarNameInTable="columnbillId" msprop:Generator_ColumnPropNameInRow="billId" msprop:Generator_ColumnPropNameInTable="billIdColumn" msprop:Generator_UserColumnName="billId" type="xs:int" minOccurs="0" />
+              <xs:element name="discount" msprop:Generator_ColumnVarNameInTable="columndiscount" msprop:Generator_ColumnPropNameInRow="discount" msprop:Generator_ColumnPropNameInTable="discountColumn" msprop:Generator_UserColumnName="discount" type="xs:int" minOccurs="0" />
+              <xs:element name="ExtraBill" msprop:Generator_ColumnVarNameInTable="columnExtraBill" msprop:Generator_ColumnPropNameInRow="ExtraBill" msprop:Generator_ColumnPropNameInTable="ExtraBillColumn" msprop:Generator_UserColumnName="ExtraBill" type="xs:int" minOccurs="0" />
+              <xs:element name="paymentMeth" msprop:Generator_ColumnVarNameInTable="columnpaymentMeth" msprop:Generator_ColumnPropNameInRow="paymentMeth" msprop:Generator_ColumnPropNameInTable="paymentMethColumn" msprop:Generator_UserColumnName="paymentMeth" type="xs:string" minOccurs="0" />
+              <xs:element name="totalbill" msprop:Generator_ColumnVarNameInTable="columntotalbill" msprop:Generator_ColumnPropNameInRow="totalbill" msprop:Generator_ColumnPropNameInTable="totalbillColumn" msprop:Generator_UserColumnName="totalbill" type="xs:int" minOccurs="0" />
+              <xs:element name="roomprice" msprop:Generator_ColumnVarNameInTable="columnroomprice" msprop:Generator_ColumnPropNameInRow="roomprice" msprop:Generator_ColumnPropNameInTable="roompriceColumn" msprop:Generator_UserColumnName="roomprice" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
